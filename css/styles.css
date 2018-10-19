@@ -1,3 +1,11 @@
 h4 {
   display: none;
 }
+
+body {
+  font-family: monospace;
+}
+
+h1 {
+  font-style: oblique;
+}

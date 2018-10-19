@@ -5,6 +5,7 @@ $(document).ready(function() {
     var companySize = $("#companySize").val();
     var styleOrFunctionality = $("#styleOrFunctionality").val();
     var webpagesOrApps = $("#webpagesOrApps").val();
+    var directOrScenic = $("#directOrScenic").val();
 
     if (math == "I love math" && companySize == "Large corporation" && styleOrFunctionality == "functionality") {
       $("h4").hide();
@@ -18,7 +19,7 @@ $(document).ready(function() {
       $("h4").hide();
       $('#output3').show();
     }
-    else if (styleOrFunctionality == "Style") {
+    else if (styleOrFunctionality == "Style" || directOrScenic == "Scenic") {
       $("h4").hide();
       $('#output2').show();
     }

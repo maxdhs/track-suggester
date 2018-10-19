@@ -2,8 +2,6 @@
 
 #### _A programming language track-suggester webpage, 10/19/18_
 
-#### _maxdhs.github.io/track-suggester_
-
 #### By _**Maxwell Dubin**_
 
 ## Description
