@@ -1,9 +1,9 @@
 $(document).ready(function() {
   $('#inputButton').click(function(event) {
     event.preventDefault();
-    var age = $("#age").val();
-    var bondActor = $("#bondActor").val();
-    var fastFood = $("#fastFood").val();
+    var companySize = $("#companySize").val();
+    var styleOrFunctionality = $("#styleOrFunctionality").val();
+    var webpagesOrApps = $("#webpagesOrApps").val();
     if (age == "") {
       alert("Please enter your age");
     }

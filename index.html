@@ -8,31 +8,40 @@
     <title>Celebrity Dating</title>
   </head>
   <body>
-    <h1>Find your dream celebrity match!</h1>
+    <div class="container">
 
-    <h3>How old are you?</h3>
-    <input type="number" class="form-control" id="age">
-    </input>
+      <h1 id="title">What programming language should I choose?</h1>
 
-    <h3>Who's your favorite bond actor?</h3>
-    <select class="form-control" id="bondActor">
-      <option>Craig Daniels</option>
-      <option>Sean Connery</option>
-    </select>
+      <h3>How much do you enjoy math?</h3>
+      <select class="form-control" id="math">
+        <option>I love math</option>
+        <option>Math is OK</option>
+        <option>I avoid math</option>
+      </select>
 
-    <h3>Do you prefer pizza or hot dogs?</h3>
-    <select class="form-control" id="fastFood">
-      <option>Pizza</option>
-      <option>Hot dogs</option>
-    </select>
+      <h3>Do you imagine yourself working at a small startup or large company?</h3>
+      <select class="form-control" id="companySize">
+        <option>Small company</option>
+        <option>Large corporation</option>
+      </select>
 
-    <br><br><br>
+      <h3>Which is more important to you: style or functionality?</h3>
+      <select class="form-control" id="styleOrFunctionality">
+        <option>Style</option>
+        <option>functionality</option>
+      </select>
 
-    <button type="submit" id="inputButton" class="btn btn-primary btn-lg" value="Submit">Submit</button>
+      <h3>Do you use webpages or apps more often?</h3>
+      <select class="form-control" id="webpagesOrApps">
+        <option>Webpages</option>
+        <option>Apps</option>
+      </select>
 
-    <h1 id="output1">Britney Spears</h1>
-    <h1 id="output2">Donald Trump</h1>
-    <h1 id="output3">Miley Cyrus</h1>
+      <button type="submit" id="inputButton" class="btn btn-primary" value="Submit">Submit</button>
 
+      <h4 id="output1">C# would be a great choice for you!</h4>
+      <h4 id="output2">CSS would be a great choice for you!</h4>
+      <h4 id="output3">Ruby would be a great choice for you!</h4>
+    </div>
   </body>
 </html>
